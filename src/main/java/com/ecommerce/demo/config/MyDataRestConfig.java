@@ -17,6 +17,7 @@ import java.util.Set;
 @Configuration
 public class MyDataRestConfig implements RepositoryRestConfigurer {
 
+    // this EntityManager is used to place entity id for ProductCategory in method "exposeIds"
     private EntityManager entityManager;
 
     @Autowired
